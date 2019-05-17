@@ -14,7 +14,6 @@ public class GaugeNeedle : MonoBehaviour
 
         Map(value, 0.0f, 1.0f, -45, 45);
 		this.transform.rotation =  Quaternion.Euler(0, 0, -rotAngle);
-		Debug.Log(value + " - " + rotAngle);
     }
 
     void Map(float value, float from1, float to1, float from2, float to2)
