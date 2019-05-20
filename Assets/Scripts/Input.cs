@@ -22,4 +22,8 @@ public class Input : MonoBehaviour {
 			levers.Add(leversContainer.transform.GetChild(i).gameObject);
 		}
 	}
+
+	void Update() {
+		
+	}
 }

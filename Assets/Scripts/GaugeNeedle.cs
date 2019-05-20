@@ -5,7 +5,7 @@ using UnityEngine;
 public class GaugeNeedle : MonoBehaviour
 {
 
-    [HideInInspector, Range(0.0f, 1.0f)]public float value = 0.5f;
+    [Range(0.0f, 1.0f)]public float value = 0.5f;
     private float rotAngle;
 
     void Update()
